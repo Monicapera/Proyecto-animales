@@ -1,0 +1,132 @@
+body {
+    font-family: verdana;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(249, 246, 246);
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 1px;
+    color: rgb(218, 230, 222);
+    text-align: center;
+    background: rgb(90, 142, 176);
+    font-size: 1.2em;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    margin: 5px;
+    /*margin: 2.5% 10% 2% 2%;*/
+    box-shadow: 0 0 45px 0 #00204e;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: #ccc;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #080606;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    background: #555;
+    color: #cccccc;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    /*Para indicarle al flexbox que los contenidos se van ajustar al tamaño de la pantalla  */
+}
+
+#Articulo1 {
+    background: rgb(177, 177, 214);
+}
+
+#Articulo2 {
+    background: rgb(177, 177, 214);
+}
+
+#Articulo3 {
+    background: rgb(177, 177, 214);
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: justify;
+}
+
+img {
+    /*text-align: justify;*/
+    width: 100%;
+    /*Hace que la imagen ocupe 100% de su contenedor */
+}
+
+footer{
+    background-color: rgba(149, 173, 202, 0.986);
+}
+
+footer p{
+    margin: 0;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+footer .footer{
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 12px;
+
+}
+
+@media (max-width: 850px) {
+    header {
+        padding: 10px 5px; 
+    }
+
+    header img {
+        width: 40px; 
+        height: 40px;
+        margin: 5px; 
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 0 5px; 
+    }
+
+    #ani h1 {
+        font-size: 2em; 
+    }
+
+    #ani h2 {
+        font-size: 1.5em; 
+    }
+}
